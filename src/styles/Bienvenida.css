@@ -1,0 +1,78 @@
+.body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.header-container{
+    position: relative;
+    z-index: 100;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#fff;
+}
+
+.banner{ /*color de fondo de banner y logo*/
+    height:20vh;
+    margin-top: -60px;
+    position: relative;
+    background: rgb(241, 149, 74);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; /*color de fondo fijo/padre*/
+}
+
+.banner-description{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    transform: translateX(-50%) translateY(-50%);
+ top: 50%;
+ left: 50%;
+ width: 100%;
+ font-size: 15px;    
+}
+
+.section-inicio{
+    height:15vh;
+    margin-top: 15px;
+    position: relative;
+    background: rgb(241, 149, 74);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+
+}
+
+.Image-Inicio{
+	height: 80px;
+    width: 80px;
+    background: rgb(245, 230, 95);
+   /* border: none;
+    border-radius: 50%; */  
+   
+    
+}
+
+
+.Menu-Ticket{
+
+    margin: 20px;
+}
+
+@media(min-width:520px){
+    .grid{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

@@ -1,5 +1,10 @@
 # Burger Queen
 
+## Diagrama de flujo
+Se presenta diagrama de flujo de ñla primer historia de usuarioÑ
+
+![Diagrama-flujo](https://i.ibb.co/xLz2999/Diagrama-uno-burguer.jpg)
+
 ## Preámbulo
 
 [React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)

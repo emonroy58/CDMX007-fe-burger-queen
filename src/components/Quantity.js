@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 class Quantity extends Component {
     
-modifyQuantity(evento){
-   this.props.sendOrder(this.props.index, evento.target.value);
+modifyQuantity(event){
+   this.props.sendOrder(this.props.index, event.target.value)
    
 }
 

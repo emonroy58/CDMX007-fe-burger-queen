@@ -1,8 +1,12 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Component } from 'react';
 import Desayuno from '../components/Desayuno.js';
 import Ticket from '../components/Ticket.js'
+import TicketFood from '../components/TicketFood.js'
 import '../styles/Bienvenida.css';
+import Comida from '../components/Comida';
+import Bebidas from '../components/Bebidas'
 
 
 class Bienvenida extends Component{
@@ -33,8 +37,12 @@ class Bienvenida extends Component{
            
             </div>
                 <article className= "grid">
-                    <Desayuno/>
-                    <Ticket/>
+                  {/* <Desayuno/>
+                     <Ticket/>*/}
+                     <Comida />
+                    <Bebidas />
+                    <TicketFood />
+                    
                 </article>  
 
 

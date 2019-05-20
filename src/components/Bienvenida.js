@@ -6,7 +6,9 @@ import Ticket from '../components/Ticket.js'
 import TicketFood from '../components/TicketFood.js'
 import '../styles/Bienvenida.css';
 import Comida from '../components/Comida';
-import Bebidas from '../components/Bebidas'
+import Bebidas from '../components/Bebidas';
+import {BrowserRouter, Route, Link, Redirect, withRouter} from 'react-router-dom';
+
 
 
 class Bienvenida extends Component{
@@ -37,12 +39,20 @@ class Bienvenida extends Component{
            
             </div>
                 <article className= "grid">
-                  {/* <Desayuno/>
-                     <Ticket/>*/}
-                     <Comida />
-                    <Bebidas />
-                    <TicketFood />
-                    
+                 <BrowserRouter>
+                 <div>
+                 <Link to="/Desayuno">Desayuno</Link>
+                 <Link to="/Comida">Comida</Link>
+                 <Link to="/Bebidas">Bebidas</Link>
+                       <Route path="/Desayuno" component={Desayuno}></Route> 
+                       <Route path="/Comida" component={Comida}></Route> 
+                       <Route path="/Bebidas" component={Bebidas}></Route> 
+                 </div>
+                     
+                 </BrowserRouter>  
+                 <Ticket/>
+                 <TicketFood/>
+
                 </article>  
 
 

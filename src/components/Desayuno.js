@@ -4,6 +4,7 @@ import  VarDesayunoController from '../components/DesayunoController.js';
 import Quantity from '../components/Quantity.js';
 
 
+
 /* array que guardara loe desayunos del objeto que se encuentra en DesayunoController*/
 let breakfastElement = [];
 /*variable para tener acceso al arreglo*/

@@ -25,7 +25,7 @@
     height:20vh;
     margin-top: -60px;
     position: relative;
-    background: rgb(241, 149, 74);
+    background: url('https://i.ibb.co/18NZRBM/portada.jpg');
     background-size: cover;
     background-position: center; 
     background-attachment: fixed; /*color de fondo fijo/padre*/
@@ -46,7 +46,7 @@
     height:15vh;
     margin-top: 15px;
     position: relative;
-    background: rgb(241, 149, 74);
+    background: url('https://i.ibb.co/18NZRBM/portada.jpg');
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;

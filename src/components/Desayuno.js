@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../styles/Desayuno.css';
 import  VarDesayunoController from '../components/DesayunoController.js';
 import Quantity from '../components/Quantity.js';
+import Bienvenida from './Bienvenida';
+
 
 
 /* array que guardara loe desayunos del objeto que se encuentra en DesayunoController*/
@@ -14,7 +16,7 @@ addArraybreakfast.breakfasts.forEach((value,id) => (
 
         <div className = "list-group-item" key={id}>
             <div className= "panel-body ">
-                <img role= "presentation" src={ value.image } className = "ImageBreakfast"/>
+                <img role= "presentation" src={ value.image } className = "ImageBreakfast" alt="Imagen Desayuno"/>
                 <h3 className="TitleBreakfast">{value.item}</h3>
                 <Quantity  price = {value.price}  index = {id}
                     sendOrder= {(indexFood, eventQuantityFood)=>
@@ -27,20 +29,24 @@ addArraybreakfast.breakfasts.forEach((value,id) => (
     )
 )
 
-class Desayuno extends Component{  /*clase Desayuno que va a heresar coponent*/
+class Desayuno extends Component{  /*clase Desayuno que va a procesar component*/
     render(){
         return(
+            <Bienvenida>
                 <div >
                     <div> 
                     <h3 className="title-section">Desayuno</h3>
                         <div className = "panel panel-primary">
                             <div className= "list-group Desayuno-Menu">
                                 {breakfastElement}
+                                
                             </div>
                          </div>
                     </div>
                 </div> 
-            );
+            </Bienvenida>
+            
+         );
     }
     
 }

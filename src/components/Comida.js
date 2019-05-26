@@ -4,6 +4,9 @@ import { Card, Row, Col, CardImg, CardTitle} from 'reactstrap';
 import  VarDesayunoController from '../components/DesayunoController.js';
 import CardHamburguer from '../components/Card_haburguer';
 import Supplement from '../components/Supplements';
+import Bienvenida from './Bienvenida';
+import './../styles/Bienvenida.css'
+
 
 
 /* array que guardara loe desayunos del objeto que se encuentra en DesayunoController*/
@@ -55,6 +58,7 @@ addArrayfood.hamburger.forEach((element,id) => (
 class Comida extends Component{  /*clase Desayuno que va a heresar coponent*/
     render(){
         return(
+              <Bienvenida>
                 <div >
                     <div> 
                     <h3 className="title-section">Comida</h3>
@@ -65,6 +69,8 @@ class Comida extends Component{  /*clase Desayuno que va a heresar coponent*/
                          </div>
                     </div>
                 </div> 
+              </Bienvenida>
+                
             );
     }
     

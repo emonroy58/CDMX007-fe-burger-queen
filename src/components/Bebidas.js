@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import '../styles/Bebidas.css';
 import { Card, Row, Col, CardImg, CardTitle} from 'reactstrap';
 import VarDesayunoController from '../components/DesayunoController.js';
-import Adicionales from '../components/Adicionales.js'
 import Quantity from '../components/Quantity.js';
+import './../styles/Bienvenida.css';
+import Bienvenida from './Bienvenida';
 
 
 let drinkElement = [];
@@ -43,6 +44,7 @@ addArraydrink.drinks_additional.forEach((element,id) => (
 class Bebidas extends Component{  /*clase Desayuno que va a heresar coponent*/
     render(){
         return(
+            <Bienvenida>
                 <div >
                     <div> 
                     <h3 className="title-section">Complementos Adicionales</h3>
@@ -53,6 +55,8 @@ class Bebidas extends Component{  /*clase Desayuno que va a heresar coponent*/
                          </div>
                     </div>
                 </div> 
+            </Bienvenida>
+                
             );
     }
     

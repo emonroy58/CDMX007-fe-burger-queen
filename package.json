@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-4-react": "0.0.58",
+    "firebase": "^6.0.4",
     "history": "^4.9.0",
     "mobx": "^5.9.4",
     "mobx-react": "^5.4.3",

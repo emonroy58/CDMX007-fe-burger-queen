@@ -6,7 +6,7 @@ Se presenta diagrama de flujo de ñla primer historia de usuarioÑ
 ![Diagrama-flujo](https://i.ibb.co/xLz2999/Diagrama-uno-burguer.jpg)
 
 ## Presentacion
-[Presentacion Burger](https://drive.google.com/open?id=1Vlkb17tNErqc6AFayG-tKNDznh-ah_PE)
+[Presentacion Burger](https://www.canva.com/design/DADbWkhZMqo/NnnPEH9bYGnMBvniZbRing/view?presentation)
 
 ## Preámbulo
 
